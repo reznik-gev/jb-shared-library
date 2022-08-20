@@ -1,0 +1,13 @@
+dev:
+  awsCredentials: "awsSlave-dev"
+  awsRegion: "us-east-1"
+test:
+  awsCredentials: "awsSlave-test"
+  awsRegion: "eu-west-1"
+stage:
+  awsCredentials: "awsSlave-stage"
+  awsRegion: "us-east-1"
+prod:
+  awsCredentials: "awsSlave-prod"
+  awsRegion: "us-east-1"
+buildImage: "jpbarto/boto3"
